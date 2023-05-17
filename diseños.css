@@ -1,3 +1,150 @@
-p{
-    font: size large 70px;;
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+img{
+position: relative;
+width: 250px;
+height: 250px;
+border-radius: 30px;
+left:20px;
+}
+.Barra-izquierda{
+    background-color:#1C84FA;
+    position:absolute;
+    height: 750px;
+    width:300px;
+    left: 250px;
+    top: 50px;
+}
+.contacto{
+    text-align: center;
+}
+
+.habilidades{
+text-align: center;
+position: relative;
+bottom: 40px;
+
+
+}
+.correo,.numero-telefono,.github,.linkedin{
+
+    text-align: center;
+    font-size: 15px;
+    flex-direction: row;
+}
+
+.css,.java-script,.react,.mySQL{
+     text-align: center;
+     position: relative;
+    font-size: 15px;
+    flex-direction: row;
+    bottom: 30px;
+
+}
+.parte-derecha{
+    background-color: #EDEEF2;
+    position:relative;
+    width: 800px;
+    height: 750px;
+    left: 550px;
+    top:50px;
+}
+.nombre{
+    text-align:center;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    color: #1C84FA;
+}
+.apellido{
+    text-align:center;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+}
+
+.per-labo,.exp-labo{
+    position: relative;
+    left: 50px;
+   background-color: #1C84FA;
+   border-radius: 10px;
+   width: 300px;
+   
+}
+.container-p1,.p2{
+ height: 100px;
+width: 700px;
+position: relative;
+left: 50px;
+}
+.per-edu,.inter{
+    position: relative;
+    left: 50px;
+    top: 110px;
+    background-color: #1C84FA;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+.p3{
+    position: relative;
+    height:70px;
+    width: 500px;
+    left: 50px;
+    top: 110px;
+}
+.p4{
+    position: relative;
+    height:70px;
+    width: 500px;
+    left: 70px;
+    top: 110px;
+}
+textarea{
+    position: relative;
+    left: 415px;
+    top: 100px;
+    background-color:#EDEEF2;  
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+#mail{
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+    color: black;
+}
+#wha{
+    position: relative;
+    bottom: 25px;
+    left: 60px;
+    color: black;
+}
+.github{
+    position: relative;
+    bottom: 5px;
+    color: black;
+}
+#git{
+    position: relative;
+    bottom: 50px;
+    left: 85px;
+    color: black;
+}
+.linkedin{
+    position: relative;
+    bottom: 20px;
+    
+}
+#logo-link {
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    color: black;
 }
